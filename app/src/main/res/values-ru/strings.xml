@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mTeacher">Учитель</string>
+    <string name="mStudent">Студент</string>
+    <string name="prompt_email">Почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войтти или регистрация</string>
+    <string name="action_sign_in_short">Войтти</string>
+    <string name="error_invalid_email">Этот адрес электронной почты недействителен</string>
+    <string name="error_invalid_password">Этот пароль слишком короткий</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="register">
+        <u>Или зарегистрируйтесь сейчас</u>
+    </string>
+    <string name="text_select_lesson">Выберите предмет</string>
+    <string name="text_view_results">Посмотреть результаты</string>
+    <string name="text_add_questions">Добавить вопросы</string>
+    <string name="student_number">Студентский номер</string>
+</resources>
