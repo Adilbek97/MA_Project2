@@ -40,7 +40,7 @@ class AddQustionAdapter(val context: Context, var result: List<Predmet>): Recycl
         fun setData(predmet: Predmet?, position:Int){
             this.curRredmet=predmet
             this.curPositin=position
-            itemView.predmetT.text=curRredmet!!.name
+            itemView.tv_subject.text=curRredmet!!.name
 
         }
     }

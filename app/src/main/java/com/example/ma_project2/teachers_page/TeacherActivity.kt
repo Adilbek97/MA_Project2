@@ -11,11 +11,11 @@ class TeacherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_teacher)
-        bSeeResults.setOnClickListener {
+        btn_SeeResults.setOnClickListener {
             val intent=Intent(this,SeeResultActivity::class.java)
             startActivity(intent)
         }
-        bAddQuestions.setOnClickListener {
+        btn_AddQuestions.setOnClickListener {
             val intent=Intent(this,AddQuestionActivity::class.java)
             startActivity(intent)
         }

@@ -21,7 +21,7 @@
                 android:orientation="vertical"
                 android:layout_gravity="center">
             <Button
-                    android:id="@+id/bSeeResults"
+                    android:id="@+id/btn_SeeResults"
                     android:layout_width="250dp"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
 
             <Button
                     android:layout_marginTop="70dp"
-                    android:id="@+id/bAddQuestions"
+                    android:id="@+id/btn_AddQuestions"
                     android:layout_width="250dp"
                     android:layout_gravity="center"
                     android:textColor="@color/grayLight"

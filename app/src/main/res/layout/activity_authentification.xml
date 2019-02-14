@@ -29,6 +29,7 @@
                       android:layout_marginTop="30dp"/>
 
             <EditText android:background="@drawable/edit_text_style"
+                      android:inputType="number"
                       android:hint="@string/student_number"
                       android:layout_width="300dp"
                       android:layout_height="wrap_content"
@@ -43,7 +44,7 @@
                       android:layout_marginTop="40dp"/>
             <Button android:background="@drawable/button_style"
                     android:text="@string/action_sign_in_short"
-                    android:id="@+id/btnSignIn"
+                    android:id="@+id/btn_SignIn"
                     android:textColor="@color/grayLight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
                     android:layout_marginTop="40dp"/>
             <TextView android:text="@string/register"
                       android:layout_marginTop="40dp"
-                      android:textSize="20dp"
+                      android:textSize="20sp"
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_gravity="center_horizontal"/>

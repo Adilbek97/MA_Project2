@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val intent= Intent(this,AuthentificationActivity::class.java)
-        bTeacher.setOnClickListener {
+        btn_Teacher.setOnClickListener {
 //            Toast.makeText(this,"Button teacher was clicked", Toast.LENGTH_LONG).show()
             intent.putExtra("status","teacher")
             startActivity(intent)
         }
-        bStudent.setOnClickListener {
+        btn_Student.setOnClickListener {
 //            Toast.makeText(this,"Button student was clicked", Toast.LENGTH_LONG).show()
             intent.putExtra("status","student")
             startActivity(intent)
