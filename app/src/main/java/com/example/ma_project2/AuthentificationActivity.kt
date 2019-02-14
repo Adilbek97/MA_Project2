@@ -16,7 +16,7 @@ class AuthentificationActivity : AppCompatActivity() {
             val bundle:Bundle?=intent.extras
             val status:String? = bundle!!.getString("status")
             var intent2 : Intent
-            btnSignIn.setOnClickListener {
+            btn_SignIn.setOnClickListener {
                 if (status.equals("teacher")){
                     intent2= Intent(this, TeacherActivity::class.java)
                     startActivity(intent2)

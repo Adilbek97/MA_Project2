@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="mTeacher">Учитель</string>
-    <string name="mStudent">Студент</string>
+    <string name="teacher">Учитель</string>
+    <string name="student">Студент</string>
     <string name="prompt_email">Почта</string>
     <string name="prompt_password">Пароль</string>
     <string name="action_sign_in">Войтти или регистрация</string>
