@@ -21,21 +21,21 @@
                 android:layout_gravity="center"
                 >
             <Button
-                    android:id="@+id/btn_Teacher"
+                    android:id="@+id/teacher_btn"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_style"
-                    android:text="@string/Teacher"
+                    android:text="@string/teacher"
                     android:textColor="@color/grayLight"
                     android:textSize="25sp"
                     android:layout_gravity="center_horizontal"/>
 
             <Button
-                    android:id="@+id/btn_Student"
+                    android:id="@+id/student_btn"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_style"
-                    android:text="@string/Student"
+                    android:text="@string/student"
                     android:textColor="@color/grayLight"
                     android:textSize="25sp"
                     android:layout_marginTop="70dp"

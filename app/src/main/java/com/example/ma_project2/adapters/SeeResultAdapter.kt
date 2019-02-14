@@ -32,8 +32,8 @@ class SeeResultAdapter(val context:Context,var result: List<Result>): RecyclerVi
     fun setData(result:Result?,position:Int){
             this.curResult=result
             this.curPositin=position
-            itemView.tv_subject.text=curResult!!.predmet
-            itemView.tv_mark.text = Math.round(curResult!!.bal).toString()
+            itemView.subject_tv.text=curResult!!.predmet
+            itemView.mark_tv.text = Math.round(curResult!!.bal).toString()
 
         }
     }
