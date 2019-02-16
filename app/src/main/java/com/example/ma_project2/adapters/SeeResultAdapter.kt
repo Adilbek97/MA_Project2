@@ -27,13 +27,13 @@ class SeeResultAdapter(val context:Context,var result: List<Result>): RecyclerVi
     inner class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
     var curResult:Result? = null
-    var curPositin:Int = 0
+    var curPosition:Int = 0
 
     fun setData(result:Result?,position:Int){
             this.curResult=result
-            this.curPositin=position
-            itemView.subject_tv.text=curResult!!.predmet
-            itemView.mark_tv.text = Math.round(curResult!!.bal).toString()
+            this.curPosition=position
+            itemView.subject_tv.text=curResult!!.subject
+            itemView.mark_tv.text = Math.round(curResult!!.mark).toString()
 
         }
     }

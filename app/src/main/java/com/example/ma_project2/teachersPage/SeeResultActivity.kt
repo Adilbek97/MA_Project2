@@ -1,4 +1,4 @@
-package com.example.ma_project2.teachers_page
+package com.example.ma_project2.teachersPage
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

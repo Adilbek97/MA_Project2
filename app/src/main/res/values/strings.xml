@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">MA_Project2</string>
-    <string name="teacher" translatable="false">Teacher</string>
-    <string name="student" translatable="false">Student</string>
+    <string name="teacher" >Teacher</string>
+    <string name="student">Student</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>

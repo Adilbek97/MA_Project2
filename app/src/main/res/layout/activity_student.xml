@@ -8,7 +8,7 @@
         android:background="@color/azure"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context=".students_page.StudentActivity"
+        tools:context=".studentsPage.StudentActivity"
         >
     <android.support.v7.widget.CardView
             android:layout_width="match_parent"

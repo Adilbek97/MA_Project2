@@ -1,4 +1,4 @@
-package com.example.ma_project2.students_page
+package com.example.ma_project2.studentsPage
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +8,6 @@ class StudentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_student)
     }
 }

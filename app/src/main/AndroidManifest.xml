@@ -9,17 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".students_page.AnswerActivity">
+        <activity android:name=".teachersPage.AddQuestionActivity">
         </activity>
-        <activity android:name=".teachers_page.AddQuestionActivity">
-        </activity>
-        <activity android:name=".teachers_page.SeeResultActivity">
+        <activity android:name=".teachersPage.SeeResultActivity">
         </activity>
         <activity android:name=".AuthentificationActivity">
         </activity>
-        <activity android:name=".teachers_page.TeacherActivity">
+        <activity android:name=".teachersPage.TeacherActivity">
         </activity>
-        <activity android:name=".students_page.StudentActivity">
+        <activity android:name=".studentsPage.StudentActivity">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

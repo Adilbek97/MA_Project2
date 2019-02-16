@@ -3,8 +3,8 @@ package com.example.ma_project2
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ma_project2.students_page.StudentActivity
-import com.example.ma_project2.teachers_page.TeacherActivity
+import com.example.ma_project2.studentsPage.StudentActivity
+import com.example.ma_project2.teachersPage.TeacherActivity
 import kotlinx.android.synthetic.main.activity_authentification.*
 
 class AuthentificationActivity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class AuthentificationActivity : AppCompatActivity() {
             val bundle:Bundle?=intent.extras
             val status:String? = bundle!!.getString("status")
             var intent2 : Intent
-            btn_SignIn.setOnClickListener {
+            sign_in_btn.setOnClickListener {
                 if (status.equals("teacher")){
                     intent2= Intent(this, TeacherActivity::class.java)
                     startActivity(intent2)

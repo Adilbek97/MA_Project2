@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.example.ma_project2.R
-import com.example.ma_project2.model.Predmet
-import com.example.ma_project2.model.Result
+import com.example.ma_project2.model.Subject
 import kotlinx.android.synthetic.main.see_result_item.view.*
 
-class AddQustionAdapter(val context: Context, var result: List<Predmet>): RecyclerView.Adapter<AddQustionAdapter.MyViewHolder>() {
+class AddQuestionAdapter(val context: Context, var result: List<Subject>): RecyclerView.Adapter<AddQuestionAdapter.MyViewHolder>() {
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): MyViewHolder {
+
         val view = LayoutInflater.from(context).inflate(R.layout.see_result_item,p0,false)
         return MyViewHolder(view)
     }
@@ -22,13 +22,13 @@ class AddQustionAdapter(val context: Context, var result: List<Predmet>): Recycl
     }
 
     override fun onBindViewHolder(p0: MyViewHolder, p1: Int) {
-        val res: Predmet? = result[p1]
+        val res: Subject? = result[p1]
         p0.setData(res,p1)
     }
 
     inner class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
-        var curRredmet: Predmet? = null
+        var curRredmet: Subject? = null
         var curPositin:Int = 0
 
             init {
@@ -37,7 +37,7 @@ class AddQustionAdapter(val context: Context, var result: List<Predmet>): Recycl
                 }
             }
 
-        fun setData(predmet: Predmet?, position:Int){
+        fun setData(predmet: Subject?, position:Int){
             this.curRredmet=predmet
             this.curPositin=position
             itemView.subject_tv.text=curRredmet!!.name
