@@ -11,13 +11,17 @@
             android:theme="@style/AppTheme">
         <activity android:name=".students_page.AnswerActivity">
         </activity>
-        <activity android:name=".teachers_page.AddQuestionActivity">
+        <activity android:name=".teachers_page.AddQuestionActivity"
+                  android:parentActivityName=".teachers_page.TeacherActivity">
         </activity>
-        <activity android:name=".teachers_page.SeeResultActivity">
+        <activity android:name=".teachers_page.SeeResultActivity"
+                  android:parentActivityName=".teachers_page.TeacherActivity">
         </activity>
-        <activity android:name=".AuthentificationActivity">
+        <activity android:name=".AuthentificationActivity"
+                  android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".teachers_page.TeacherActivity">
+        <activity android:name=".teachers_page.TeacherActivity"
+                  android:parentActivityName=".AuthentificationActivity">
         </activity>
         <activity android:name=".students_page.StudentActivity">
         </activity>
