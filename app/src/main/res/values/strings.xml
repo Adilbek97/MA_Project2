@@ -17,4 +17,5 @@
     <string name="text_view_results">View results</string>
     <string name="text_add_questions">Add questions</string>
     <string name="student_number">Student Number</string>
+    <string name="text_tests">Tests</string>
 </resources>

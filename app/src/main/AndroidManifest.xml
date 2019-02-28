@@ -23,7 +23,8 @@
         <activity android:name=".teachers_page.TeacherActivity"
                   android:parentActivityName=".AuthentificationActivity">
         </activity>
-        <activity android:name=".students_page.StudentActivity">
+        <activity android:name=".students_page.StudentActivity"
+        android:parentActivityName=".AuthentificationActivity">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

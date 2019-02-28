@@ -17,4 +17,5 @@
     <string name="text_view_results">Посмотреть результаты</string>
     <string name="text_add_questions">Добавить вопросы</string>
     <string name="student_number">Студентский номер</string>
+    <string name="text_tests">Тесты</string>
 </resources>
