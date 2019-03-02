@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.ma_project2">
+
     <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -9,9 +11,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".teachers_page.AddQuestionActivity">
+        <activity android:name=".teachers_page.add_question_page.ShowQuestionActivity">
         </activity>
-        <activity android:name=".teachers_page.SeeResultActivity">
+        <activity android:name=".teachers_page.SelectSubjectActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".students_page.AnswerActivity">
+        </activity>
+        <activity android:name=".teachers_page.add_question_page.AddQuestionActivity">
+        </activity>
+        <activity android:name=".teachers_page.see_result_page.SeeResultActivity">
         </activity>
         <activity android:name=".AuthentificationActivity">
         </activity>

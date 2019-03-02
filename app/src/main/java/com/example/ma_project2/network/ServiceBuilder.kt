@@ -1,20 +1,19 @@
-package com.example.ma_project2.example_for_retrofit.api
+package com.example.ma_project2.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.util.concurrent.TimeUnit
 
 object ServiceBuilder {
 
-    private const val BASE_URL = "http://e11837c0.ngrok.io/"
+    private const val BASE_URL = "http://adilbek.pythonanywhere.com/"
 
     //create Logger
     private val logger=HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 
     // create okHttp Client
-    private val okHttp:OkHttpClient.Builder = OkHttpClient.Builder().callTimeout(15,TimeUnit.SECONDS).addInterceptor(logger)
+    private val okHttp:OkHttpClient.Builder = OkHttpClient.Builder().addInterceptor(logger)
 
     //Create retrofit instance
     private val builder: Retrofit.Builder = Retrofit.Builder().baseUrl(BASE_URL ).addConverterFactory(GsonConverterFactory.create())

@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="match_parent"
         android:background="@color/azure"
         android:gravity="center_horizontal"
         android:orientation="vertical">
@@ -12,23 +12,116 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp">
-
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:weightSum="10">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
             <TextView
-                    android:id="@+id/predmetName"
-                    android:layout_weight="10"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/to_subject_name_tv"
+                    android:text="subject"
+                    android:textSize="30sp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <EditText
+                    android:id="@+id/question_edit_text"
+                    android:layout_width="match_parent"
+                    android:hint="Question"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp"
                     android:textSize="20sp"
                     android:gravity="center_horizontal"
-                    android:layout_gravity="center|center_horizontal"
-            />
+                    android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                <EditText
+                        android:id="@+id/markA"
+                        android:layout_weight="1"
+                        android:hint="Variant A"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"/>
+                <EditText
+                        android:id="@+id/markB"
+                        android:layout_weight="1"
+                          android:hint="Variant B"
+                          android:layout_width="0dp"
+                          android:layout_height="100dp"
+                          android:layout_margin="10dp"
+                          android:textSize="20sp"
+                          android:gravity="center_horizontal"
+                          android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
 
+            >
+                <EditText
+                        android:id="@+id/question2_edit_text"
+                        android:layout_weight="1"
+                        android:hint="Variant C"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"/>
+                <EditText
+                        android:layout_weight="1"
+                        android:hint="Variant D"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
 
+        >
+            <EditText
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_style"
+                    android:textSize="20sp"
+                    android:hint="correct variant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Add question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+            <Button
+                    android:hint="save and add more"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:background="@drawable/button_style"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"/>
+            <Button
+                    android:hint="show questions"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:background="@drawable/button_style"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
